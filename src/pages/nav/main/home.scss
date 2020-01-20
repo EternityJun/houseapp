@@ -1,0 +1,59 @@
+.topBox{
+  height: 40px;
+  background: #D73D45;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  .city{
+    color: #fff;
+  }
+  .search{
+    width: 68%;
+    height: 36px;
+    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+.buyHouse{
+  background: #fff;
+  .houseStrategy{
+    padding: 10px;
+  }
+}
+
+/* 猜你喜欢 */
+.yourLike{
+  background: #fff;
+  .sub-title{
+    padding: 10px;
+  }
+  .likeList{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    .List{
+      display: flex;
+      .nameBox{
+        margin: 14px 10px;
+      }
+    }
+  }
+  .nameBox{
+    h3{
+      margin: 0 ;
+    }
+  }
+  .imgBox{
+    width: 100px;
+    height: 100px;
+    img{
+      width: 100px;
+    }
+  }
+  .price{
+    color: red;
+  }
+}

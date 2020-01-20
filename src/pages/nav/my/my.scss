@@ -1,0 +1,40 @@
+.personInfo{
+  display: flex;
+  flex-direction: column;  
+  padding: 15px  10px;
+  background:rgb(182, 25, 33);
+  color: #fff;
+  .Info-Box{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    .header{
+      display: flex;
+      .headerImgBox{
+        border-radius: 50%;
+        img{
+          border-radius: 50%;
+        }
+      }
+      p{
+        margin: 0;
+      }
+      .loginReg{
+        margin: 5px 10px;
+      }
+    }
+  }
+  .discount{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    p{
+      margin:5px 0;
+    }
+    .Dis{
+      padding: 0 45px;
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+    }
+  }
+}

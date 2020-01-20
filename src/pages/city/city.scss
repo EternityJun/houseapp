@@ -1,0 +1,36 @@
+#cityList{
+  width:300px;
+  height: 100%;
+  margin-left:15px; 
+  padding: 10px;
+  .cityLeftBox{
+    height: 100%;
+
+  }
+  .content{
+    margin-top:0;
+    padding-left:0;  
+    h3{
+      margin-top: 5px;
+    }
+    .cityList{
+      display: inline-block;
+      width: 80px;
+      height: 30px;
+      padding: 10px;
+      text-align: center;
+      background-color: #fff;
+    }
+  }
+}
+
+.rightLetter{
+  position: fixed;
+  top: 5%;
+  right: 0;
+  background: #ddd;
+  padding: 5px;
+  p{
+    margin: 10px 0;
+  }
+}

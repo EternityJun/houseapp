@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from './App.js';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import './components/component.scss'
+import 'antd-mobile/dist/antd-mobile.css'
+import store from './store/'
+import {Provider} from 'react-redux'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//Provider redux的数据容器，只要给provide绑定一个store,provider内的所有子元素全局共享此store
+
+//Provider redux的数据容器，只要给provide绑定一个store
+{/* <Provider store={store}>
+//Provider内的所有儿子，不管层级有多深，都能全局共享此store所有数据
+<App/>
+</Provider> */}
+
+
+ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('root'));
+

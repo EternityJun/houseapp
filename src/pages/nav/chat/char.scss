@@ -1,0 +1,35 @@
+
+.charBigBox{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .charBox{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    .headerBox{
+      border-radius:50%; 
+      img{
+        border-radius:50%; 
+      }
+    }
+    p{
+      margin: 5px 0;
+    }
+    .charBtn{
+      width: 140px;
+      height: 40px;
+      span{
+        font-size: 16px;
+        line-height: 37px;
+      }
+    }
+  }
+}
